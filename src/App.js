@@ -1,25 +1,31 @@
 import React, {Component} from "react";
+import icon from "./images/icon-music.svg";
+import "./App.css";
 
 class App extends Component {
     render() {
       return (
         <main>
-            <section>
-                <p>.</p>
+            <section className="top">
+                <p className="hide">.</p>
             </section>
-            <section>
-                <h1>Order Summary</h1>
-                <p>You can now listen to millions of songs, audiobooks, and podcasts on  any device anywhere you like!</p>
-                <div>
-                    <div>
-                        <h2>Annual Plan</h2>
-                        <p>$59.99/year</p>
+            <section className="bottom">
+                <div className="container">
+                    <h1>Order Summary</h1>
+                    <p className="catch-copy">You can now listen to millions of songs, audiobooks, and podcasts on  any device anywhere you like!</p>
+                    <div className="case">
+                        <img src={icon} alt="icon" />   
+                        <div className="plan">       
+                            <h2>Annual Plan</h2>
+                            <p>$59.99/year</p>
+                        </div>
+                        <a href="#test">Change</a>
                     </div>
-                    <a href="#">Change</a>
-                </div>
 
-                <button>Proceed to Payment</button>
-                <h3>Cancel Order</h3>
+                    <button>Proceed to Payment</button>
+                    <h3>Cancel Order</h3>
+                </div>
+                
             </section>
         </main>
       );

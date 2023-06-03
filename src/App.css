@@ -1,3 +1,5 @@
+/******************* GENERAL STYLES ******************/
+
 * {
     padding: 0;
     margin: 0;
@@ -8,10 +10,147 @@ html {
     font-size: 15px;
 }
 
-body {
+body,
+#root {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 25px;
+    color: #717FA6;
+    height: 100vh;
+    background: url("./images/pattern-background-mobile.svg") bottom right no-repeat;
+    background-color: #E0E8FF;
+    background-size: cover;
+}
+
+main {
+    width: 87.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.container {
+    width: 85.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.hide {
+    display: none;
+}
+
+/************************** TOP ***************************/
+
+.top {
+    width: 100%;
+    padding: 80px 0;
+    background: url("./images/illustration-hero.svg") center no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/************************** BOTTOM ***************************/
+.bottom {
+    padding: 32px 0;
+    background-color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bottom h1 {
+    margin-bottom: 16px;
+    font-size: 1.47em;
+    font-weight: 900;
+    line-height: 29px;
+    color: #1F2E55;
+}
+
+.bottom .catch-copy {
+    width: 95%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.case {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 16px;
+    background: #F7F9FF;
+    border-radius: 11px;
+}
+
+.case img {
+    width: 19.4%;
+    margin-right: 20px;
+}
+
+.case .plan {
+    width: 32.8%;
+    margin-right: 44px;
+}
+
+.plan h2 {
+    font-weight: 900;
+    font-size: 0.93em;
+    line-height: 19px;
+    color: #1F2E55;
+}
+
+.plan p {
+    font-weight: 500;
+    font-size: 0.93em;
+    line-height: 19px;
+    color: #717FA6;
+}
+
+.plan a {
+    font-size: 0.867em;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+button {
+    margin: 24px 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 60px;
+    border-radius: 10px;
+    border: 1px solid #382AE1;
+    background-color: #382AE1;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 900;
+    line-height: 20px;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 900;
+    line-height: 20px;
+    color: #717FA6;
 }
