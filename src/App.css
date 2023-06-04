@@ -132,6 +132,7 @@ section {
     font-size: 0.867em;
     font-weight: 700;
     line-height: 17px;
+    color: #382AE1;
 }
 
 button {
@@ -153,4 +154,96 @@ h3 {
     font-weight: 900;
     line-height: 20px;
     color: #717FA6;
+}
+
+/*********************** DESKTOP STYLES **********************/
+
+@media (min-width: 1200px) {
+    /******************** GENERAL STYLES *********************/
+
+    body {
+        background: url("./images/pattern-background-desktop.svg") center no-repeat;
+        background-color: #E0E8FF;
+        background-size: cover;
+    }
+
+    main {
+        width: 31.25%;
+        max-width: 450px;
+    }
+
+    /******************* TOP *******************/
+
+    .top {
+        padding: 110px 0;
+    }
+
+    /******************* BOTTOM *******************/
+    .bottom {
+        padding: 45px 0 48px 0;
+    }
+
+    .bottom h1 {
+        margin-bottom: 17px;
+        font-size: 1.87em;
+        line-height: 37px;
+    }
+
+    .bottom .catch-copy {
+        width: 78.67%;
+        text-align: center;
+        line-height: 26px;
+        font-weight: 500;
+        font-size: 1.07em;
+    }
+
+    .case {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .case img {
+        width: 15.7%;
+        margin-right: 20px;
+    }
+
+    .case .plan {
+        width: 32.8%;
+        margin-right: 94px;
+    }
+
+    .plan h2 {
+        font-size: 1.07em;
+        line-height: 21px;
+    }
+
+    .plan p {
+        font-size: 1.07em;
+        line-height: 21px;
+    }
+
+    .plan a {
+        font-size: 0.93em;
+        line-height: 19px;
+    }
+
+    .plan a:active {
+        color: #766CF1;
+    }
+
+    button {
+        margin: 32px 0;
+        width: 100%;
+        padding: 15px 102px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #766CF1;
+    }
+
+    h3:hover {
+        color: #1F2E55;
+        cursor: pointer;
+    }
 }
